@@ -1,0 +1,2 @@
+# fsa
+Fair Sortition Algorithm
