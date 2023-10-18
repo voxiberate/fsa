@@ -1,0 +1,28 @@
+
+# #####################################################################
+#
+# IF YOU EDIT THIS FILE YOU NEED TO RESTART THE APPLICATION
+#
+# #####################################################################
+
+# this is written in TOML - https://github.com/toml-lang/toml
+
+id_column = "pool_member_identifier"
+
+# if check_same_address is true, then no 2 people from the same address will be selected
+# the comparison is between TWO fields listed here, which MUST also be below in columns_to_keep
+check_same_address = false
+check_same_address_columns = [
+    "Region"
+]
+max_attempts = 100
+
+# custom dataset
+columns_to_keep = [
+    "gender",
+    "age",
+    "Marital_Status"
+]
+
+# selection_algorithm can either be "legacy", "maximin", "leximin", or "nash"
+selection_algorithm = "leximin"
