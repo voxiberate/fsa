@@ -11,3 +11,5 @@ edit toml file for the categories
 # prerequisities
 python 3.6
 toml file
+
+based on stratification UI developed by Brett Hennig and Paul Gölz
